@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.MainMenuFragment"
+    android:background="?android:windowBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/fantasy_land_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="112dp"
+                        android:paddingHorizontal="8dp"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/carousel_cropped" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/fantasy_land_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="8dp"
+                        android:text="@string/fantasy_land_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/toontown_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="112dp"
+                        android:paddingHorizontal="8dp"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/toontown_sign_cropped" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/toontown_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="8dp"
+                        android:text="@string/mickeys_toontown_text" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/tomorrowland_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="112dp"
+                        android:paddingHorizontal="8dp"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/tomorrowland_sign_cropped" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/tomorrowland_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="8dp"
+                        android:text="@string/tomorrowland_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/frontierland_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="112dp"
+                        android:paddingHorizontal="8dp"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/frontierland_sign_cropped" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/frontierland_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="8dp"
+                        android:text="@string/frontierland_text" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/adventureland_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="112dp"
+                        android:paddingHorizontal="8dp"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/adventureland_sign_cropped" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/adventureland_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="8dp"
+                        android:text="@string/adventureland_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ca_adventure_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="112dp"
+                        android:paddingHorizontal="8dp"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/california_adventure_cropped" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/california_adventure_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="8dp"
+                        android:text="@string/california_adventure_text" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/characters_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="8dp"
+                    android:src="@drawable/characters_cropped" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/characters_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="104dp"
+                    android:text="@string/characters_text" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

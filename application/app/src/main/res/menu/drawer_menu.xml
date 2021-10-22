@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_item"
+            android:title="Home" />
+        <item
+            android:id="@+id/fantasy_land"
+            android:title="@string/fantasy_land_text" />
+        <item
+            android:id="@+id/toontown"
+            android:title="@string/mickeys_toontown_text" />
+        <item
+            android:id="@+id/tomorrow_land"
+            android:title="@string/tomorrowland_text" />
+        <item
+            android:id="@+id/frontier_land"
+            android:title="@string/frontierland_text" />
+        <item
+            android:id="@+id/adventure_land"
+            android:title="@string/adventureland_text" />
+        <item
+            android:id="@+id/california_adventure"
+            android:title="@string/california_adventure_text" />
+        <item
+            android:id="@+id/characters"
+            android:title="@string/characters_text" />
+
+    </group>
+</menu>

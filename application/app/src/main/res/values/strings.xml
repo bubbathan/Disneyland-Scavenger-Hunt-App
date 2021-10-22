@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Disneyland Scavenger Hunt</string>
+    <string name="found_it">Found It!</string>
+    <string name="view_picture">Check It Out</string>
+    <string name="fantasy_land_text">Fantasyland</string>
+    <string name="mickeys_toontown_text">Toontown</string>
+    <string name="frontierland_text">Frontierland</string>
+    <string name="adventureland_text">Adventureland</string>
+    <string name="tomorrowland_text">Tomorrowland</string>
+    <string name="california_adventure_text">CA Adventure</string>
+    <string name="characters_text">Characters!</string>
+    <string name="found_it_blank">Found it</string>
+    <string name="times_text"> times</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
